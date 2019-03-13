@@ -7,7 +7,7 @@ class Footer extends Component {
             <div>
                 <div className="Footer">
                     <div>
-                        <img src={this.props.icon} />
+                        
                     </div>
                 </div>
             </div>

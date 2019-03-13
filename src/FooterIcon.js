@@ -1,13 +1,13 @@
-import './Tile.scss';
+import './FooterIcon.scss';
 import React, { Component } from 'react';
 
-class Tile extends Component {
+class FooterIcon extends Component {
     render() {
         return (
             <div>
-                <div className="Tile">
+                <div className="FooterIcon">
                     <div>
-                       <img src={this.props.icon} alt="Tile"/>
+                        <img src={this.props.icon} alt="Footer" />
                     </div>
                 </div>
             </div>
@@ -15,4 +15,4 @@ class Tile extends Component {
     }
 }
 
-export default Tile;
+export default FooterIcon;

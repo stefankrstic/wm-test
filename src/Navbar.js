@@ -1,9 +1,9 @@
 import './Navbar.scss';
 import React, { Component } from 'react';
-import navImageIcon from './images/nav-image-icon.svg';
-import menuIcon from './images/menu-icon.svg';
-import searchIcon from './images/search-icon.svg';
-import navLine from './images/nav-line.svg';
+import navImageIcon from './images/nav-image.png';
+import menuIcon from './images/menu-icon.png';
+import searchIcon from './images/search-icon.png';
+import navLine from './images/nav-line.png';
 
 class Navbar extends Component {
     render() {

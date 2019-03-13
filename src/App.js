@@ -4,16 +4,17 @@ import Navbar from './Navbar';
 import Carousel from './Carousel';
 import Tile from './Tile';
 import Footer from './Footer';
-import calculatorIcon from './images/calculator-icon.svg';
-import clockIcon from './images/clock-icon.svg';
-import cloudIcon from './images/cloud-icon.svg';
-import heartIcon from './images/heart-icon.svg';
-import facebookIcon from './images/facebook-icon.svg';
-import twitterIcon from './images/twitter-icon.svg';
-import messageIcon from './images/message-icon.svg';
-import lineUpIcon from './images/line-up-icon.svg';
-import hatIcon from './images/hat-icon.svg';
-import likeIcon from './images/like-icon.svg';
+import FooterIcon from './FooterIcon';
+import calculatorIcon from './images/calculator-icon.png';
+import clockIcon from './images/clock-icon.png';
+import cloudIcon from './images/cloud-icon.png';
+import heartIcon from './images/heart-icon.png';
+import facebookIcon from './images/facebook-icon.png';
+import twitterIcon from './images/twitter-icon.png';
+import messageIcon from './images/message-icon.png';
+import lineUpIcon from './images/line-up-icon.png';
+import hatIcon from './images/hat-icon.png';
+import likeIcon from './images/like-icon.png';
 
 class App extends Component {
     render() {
@@ -35,11 +36,15 @@ class App extends Component {
                             <Tile icon={clockIcon} />
                             <Tile icon={cloudIcon} />
                             <Tile icon={heartIcon} />
+                        <Footer>
+                        <FooterIcon icon={facebookIcon} />
+                        <FooterIcon icon={twitterIcon} />
+                        <FooterIcon icon={messageIcon} />
+                        <FooterIcon icon={lineUpIcon} />
+                        </Footer>
                         
-                        <Footer icon={facebookIcon} />
-                        <Footer icon={twitterIcon} />
-                        <Footer icon={messageIcon} />
-                        <Footer icon={lineUpIcon} />
+                        
+                        
                     </div>
                 </header>
             </div>
