@@ -1,0 +1,42 @@
+.Carousel {
+    margin-top: -2px;
+    background-image: url("images/carousel-cover.svg") no-repeat;
+    background: #f3f3f3;
+    width: 320px;
+    height: 110px;
+    padding-top: 10px;
+
+}
+
+.Carousel .CarouselImage {
+    position: absolute;
+    left: 100px;
+
+}
+
+.Carousel .CarouselCover {
+    padding-top: 30px;
+}
+
+.CarouselMove {
+    display: flex;
+    border-top: 1px solid #757575;
+    border-bottom: 1px solid #757575;
+    width: 320px;
+}
+
+.CarouselMove p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    color: #757575;
+}
+
+.CarouselMove .CarouselLeft {
+
+    padding-right: 3px;
+}
+
+.CarouselMove .CarouselRight {
+    padding-left: 3px;
+
+}
