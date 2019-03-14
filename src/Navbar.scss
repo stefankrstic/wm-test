@@ -58,4 +58,29 @@
    width: 100%;
 }
 
+.Navbar-dropdown a {
+    display: block;
+    padding: 5px;
+    color:white;
+
+}
+
+.Navbar-dropdown a.home {
+    background-color: $green;
+}
+
+.Navbar-dropdown a.about-us {
+    background-color: $green-light;
+}
+
+.Navbar-dropdown a.our-work {
+    background-color: $blue-light;
+}
+
+.Navbar-dropdown a.contact {
+    background-color: $blue;
+}
+
+
+
 

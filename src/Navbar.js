@@ -6,11 +6,16 @@ import navImageIcon from './images/nav-image.png';
 
 class Navbar extends Component {
 
-    state = {showSearch: false};
+    state = {showSearch: false, showMenu: false};
 
     toggleSearch = () => {
         this.setState({showSearch: !this.state.showSearch});
     }
+
+    toggleMenu = () => {
+        this.setState({showMenu: !this.state.showMenu});
+    }
+
 
 
     render() {
@@ -49,7 +54,7 @@ class Navbar extends Component {
                     </a>
 
 
-                    <div  className="Navbar-icon mobile-only icon icon-menu" />
+                    <div onClick={this.toggleMenu} className="Navbar-icon mobile-only icon icon-menu" />
                     <div onClick={this.toggleSearch} className="Navbar-icon icon icon-search" />
                     
                 </div>
@@ -59,10 +64,32 @@ class Navbar extends Component {
                     <input type="text" />
                 </div>
                 ) : null}
+
+                {this.state.showMenu ?(
+                    <div className="Navbar-dropdown mobile-only">
+                    <a href="#link" className="home">
+                           Home
+                        </a>
+                        <a href="#link" className="about-us">
+                           About Us
+                        </a>
+                       
+                        <a href="#link" className="our-work">
+                          Our Work
+                        </a>
+                
+                        <a href="#link" className="contact">
+                          Contact
+                        </a>
+    
+                    </div>
+
+                ) : null}
+                
                 
 
 
-                <div className="Navbar-line" />
+             {this.state.showMenu ? null : <div className="Navbar-line" />}
             </div>
         );
     }
