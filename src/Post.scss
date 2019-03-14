@@ -1,0 +1,14 @@
+.Post {
+    display: flex;
+}
+
+.Post-content {
+    margin-left: 20px;
+}
+
+.Post-title, .Post-text {
+    margin-bottom: 10px;
+}
+.Post .Tile {
+    flex: 0 0 168px;
+}

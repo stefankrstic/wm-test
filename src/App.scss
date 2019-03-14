@@ -1,7 +1,31 @@
+@import './variables.scss';
+
 .MainText {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 27pt;
-    color: #757575;
-    text-align: center;
-    width: 320px;
+    color: $base-dark;
 }
+
+
+.App-content {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.App-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media ($is-mobile) {
+    .App-content {
+        width: 250px;
+    
+    }
+
+    .App-row {
+        display: block;
+    }
+    
+
+}
+

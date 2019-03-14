@@ -4,48 +4,41 @@ import Navbar from './Navbar';
 import Carousel from './Carousel';
 import Tile from './Tile';
 import Footer from './Footer';
-import FooterIcon from './FooterIcon';
-import calculatorIcon from './images/calculator-icon.png';
-import clockIcon from './images/clock-icon.png';
-import cloudIcon from './images/cloud-icon.png';
-import heartIcon from './images/heart-icon.png';
-import facebookIcon from './images/facebook-icon.png';
-import twitterIcon from './images/twitter-icon.png';
-import messageIcon from './images/message-icon.png';
-import lineUpIcon from './images/line-up-icon.png';
-import hatIcon from './images/hat-icon.png';
-import likeIcon from './images/like-icon.png';
+import Post from './Post';
+
 
 class App extends Component {
     render() {
         return (
-            <div className="App">
+    <div className="App">
                 
                 
-                        <Navbar />
-                        <Carousel />
-                        <Footer />
-                        {/*<div className="MainText">
-                            <p>WHO WE ARE</p>
-                        </div>
-                        <Tile icon={hatIcon} />
-                        <Tile icon={likeIcon} />
-                        <div className="MainText">
-                            <p>WHAT WE DO</p>
-                        </div>
-                            <Tile icon={calculatorIcon} />
-                            <Tile icon={clockIcon} />
-                            <Tile icon={cloudIcon} />
-                            <Tile icon={heartIcon} />
-        
-                        
-                        */}
-                        
-                        
-                        
+            <Navbar />
+            <Carousel />
+                       
+            <div className="App-content">
+                <p className="MainText">WHO WE ARE</p>
+                    <Post icon="icon icon-hat-big" title="Lorem ipsum">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                    </Post>
+                    <Post icon="icon icon-like" title="Lorem ipsum">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                    </Post>
+                <p className="MainText">WHAT WE DO</p>
+                <div className="App-row">
+                    <Tile icon="icon icon-calc" />
+                    <Tile icon="icon icon-clock" />
+                    </div>
+                    <div className="App-row">
+                    <Tile icon="icon icon-cloud" />
+                    <Tile icon="icon icon-heart" />
+                    </div>
                     
-               
             </div>
+
+            <Footer />
+        
+    </div>
         );
     }
 }

@@ -120,7 +120,91 @@
     
 }
 
-.icon-arrow:hover, .icon-arrow :active, .icon-arrow:focus, .icon-arrow:visited {
+.icon-arrow:hover, .icon-arrow:active, .icon-arrow:focus, .icon-arrow:visited {
     background-image: url(./images/footer/arrow-active.png);
+
+}
+
+.icon-calc {
+    background-image: url(./images/content/calc.png);
+    width: 60px;
+    height: 60px;
+    
+}
+
+.icon-calc:hover, .icon-calc:active, .icon-calc:focus, .icon-calc:visited {
+    background-image: url(./images/content/calc-active.png);
+
+}
+
+.icon-clock {
+    background-image: url(./images/content/clock.png);
+    width: 60px;
+    height: 60px;
+    
+}
+
+.icon-clock:hover, .icon-clock:active, .icon-clock:focus, .icon-clock:visited {
+    background-image: url(./images/content/clock-active.png);
+
+}
+
+.icon-cloud {
+    background-image: url(./images/content/cloud.png);
+    width: 60px;
+    height: 60px;
+    
+}
+
+.icon-cloud:hover, .icon-cloud:active, .icon-cloud:focus, .icon-cloud:visited {
+    background-image: url(./images/content/cloud-active.png);
+
+}
+
+.icon-heart {
+    background-image: url(./images/content/heart.png);
+    width: 60px;
+    height: 60px;
+    
+}
+
+.icon-heart:hover, .icon-heart:active, .icon-heart:focus, .icon-heart:visited {
+    background-image: url(./images/content/heart-active.png);
+
+}
+
+.content-link {
+    background-image: url(./images/content/link.png);
+    width: 64px;
+    height: 23px;
+    
+}
+
+.content-link:hover, .icon-link:active, .icon-link:focus, .icon-link:visited {
+    background-image: url(./images/content/link-active.png);
+
+}
+
+.icon-hat-big {
+    background-image: url(./images/content/hat.png);
+    width: 60px;
+    height: 60px;
+    
+}
+
+.icon-hat-big:hover, .icon-hat-big:active, .icon-hat-big:focus, .icon-hat-big:visited {
+    background-image: url(./images/content/hat-active.png);
+
+}
+
+.icon-like {
+    background-image: url(./images/content/like.png);
+    width: 60px;
+    height: 60px;
+    
+}
+
+.icon-like:hover, .icon-like:active, .icon-like:focus, .icon-like:visited {
+    background-image: url(./images/content/like-active.png);
 
 }
