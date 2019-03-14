@@ -10,14 +10,18 @@ class Carousel extends Component {
         return (
             <div>
                 <div className="Carousel">
-                    <img className="CarouselCover" src={carouselCover} alt="CarouselCover" />
+                    <div>
                     <img className="CarouselImage" src={carouselImage} alt="CarouselImage" />
+                    </div>
+                    <p className="CarouselImageText tablet-only">LOREM IPSUM DOLAR SIT</p>
+                    <p className="CarouselImageText desktop-only">LOREM IPSUM DOLAR SIT</p>
                 </div>
-
-                <div className="CarouselMove">
+               <div className="mobile-only">
+                <div className="CarouselMove mobile-only">
                     <img className="CarouselLeft" src={carouselLeft} alt="CarouselLeft" />
-                    <p>LOREM IPSUM DOLAR SIT</p>
+                    <p className="CarouselText">LOREM IPSUM DOLAR SIT</p>
                     <img className="CarouselRight" src={carouselRight} alt="CarouselRight" />
+                </div>
                 </div>
             </div>
         );

@@ -23,8 +23,8 @@ class App extends Component {
                 
                 
                         <Navbar />
-                        {/*<Carousel />
-                        <div className="MainText">
+                        <Carousel />
+                        {/*<div className="MainText">
                             <p>WHO WE ARE</p>
                         </div>
                         <Tile icon={hatIcon} />
