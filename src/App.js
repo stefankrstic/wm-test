@@ -20,10 +20,10 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <header className="App-header">
-                    <div>
+                
+                
                         <Navbar />
-                        <Carousel />
+                        {/*<Carousel />
                         <div className="MainText">
                             <p>WHO WE ARE</p>
                         </div>
@@ -41,12 +41,12 @@ class App extends Component {
                         <FooterIcon icon={twitterIcon} />
                         <FooterIcon icon={messageIcon} />
                         <FooterIcon icon={lineUpIcon} />
-                        </Footer>
+                        </Footer>*/}
                         
                         
                         
-                    </div>
-                </header>
+                    
+               
             </div>
         );
     }

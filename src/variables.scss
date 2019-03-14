@@ -1,0 +1,13 @@
+$base:#bababa;
+$green: #bbd547;
+$green-light:#81b36e;
+$blue-light:#429099;
+$blue:#3280bd;
+
+
+$mobile: 320px;
+$tablet: 480px;
+$desktop: 768px;
+
+$is-mobile: 'max-width: #{$tablet - 1px}';
+$is-tablet: 'max-width: #{$desktop - 1px}';

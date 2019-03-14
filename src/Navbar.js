@@ -1,20 +1,68 @@
 import './Navbar.scss';
 import React, { Component } from 'react';
 import navImageIcon from './images/nav-image.png';
-import menuIcon from './images/menu-icon.png';
-import searchIcon from './images/search-icon.png';
-import navLine from './images/nav-line.png';
+
+
 
 class Navbar extends Component {
+
+    state = {showSearch: false};
+
+    toggleSearch = () => {
+        this.setState({showSearch: !this.state.showSearch});
+    }
+
+
     render() {
         return (
             <div>
                 <div className="Navbar">
-                    <img className="NavImage" src={navImageIcon} alt="NavImage" />
-                    <img className="NavMenu" src={menuIcon} alt="NavMenu" />
-                    <img className="NavSearch" src={searchIcon} alt="NavSearch" />
+                    <img className="Navbar-logo" src={navImageIcon} alt="NavImage" />
+
+                    <a href="#link" className="Navbar-icon tablet-only">
+                       <div className="icon icon-home" /> 
+                    </a>
+                    <a href="#link" className="Navbar-icon tablet-only">
+                       <div className="icon icon-help"/> 
+                    </a>
+                    <a href="#link" className="Navbar-icon tablet-only">
+                      <div className="icon icon-hat"/> 
+                    </a>
+                    <a href="#link" className="Navbar-icon tablet-only">
+                      <div className="icon icon-email"/> 
+                    </a>
+
+                    <a href="#link" className="Navbar-icon Navbar-nav home desktop-only">
+                       Home
+                    </a>
+                    <span className="desktop-only Navbar-nav">/</span>
+                    <a href="#link" className="Navbar-icon Navbar-nav about-us desktop-only">
+                       About Us
+                    </a>
+                    <span className="desktop-only Navbar-nav">/</span>
+                    <a href="#link" className="Navbar-icon Navbar-nav our-work desktop-only">
+                      Our Work
+                    </a>
+                    <span className="desktop-only Navbar-nav">/</span>
+                    <a href="#link" className="Navbar-icon Navbar-nav contact desktop-only">
+                      Contact
+                    </a>
+
+
+                    <div  className="Navbar-icon mobile-only icon icon-menu" />
+                    <div onClick={this.toggleSearch} className="Navbar-icon icon icon-search" />
+                    
                 </div>
-                <img className="NavLine" src={navLine} alt="NavLine" />
+
+                {this.state.showSearch ? (
+                    <div className="Navbar-search">
+                    <input type="text" />
+                </div>
+                ) : null}
+                
+
+
+                <div className="Navbar-line" />
             </div>
         );
     }

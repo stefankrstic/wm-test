@@ -1,0 +1,37 @@
+@import './variables.scss';
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mobile-only, .tablet-only {
+    display: none;
+
+}
+
+.desktop-only {
+    display: block;
+}
+
+@media ($is-tablet) {
+    .desktop-only, .mobile-only {
+        display: none;
+    }
+    .tablet-only{
+        display: block;
+    }
+}
+
+@media ($is-mobile) {
+    .desktop-only, .tablet-only {
+        display: none;
+    }
+    .mobile-only{
+        display: block;
+    }
+}
