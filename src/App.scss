@@ -5,7 +5,6 @@
     color: $base-dark;
 }
 
-
 .App-content {
     width: 450px;
     margin: 0 auto;
@@ -19,13 +18,12 @@
 @media ($is-mobile) {
     .App-content {
         width: 250px;
-    
+
     }
 
     .App-row {
         display: block;
     }
-    
+
 
 }
-

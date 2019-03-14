@@ -3,16 +3,16 @@
 .Navbar {
     display: flex;
     align-items: center;
-    
+
 }
 
-.Navbar-logo{
+.Navbar-logo {
     padding: 10px;
     margin-right: auto;
 }
 
 .Navbar-icon {
-   margin: 10px;
+    margin: 10px;
 }
 
 .Navbar-line {
@@ -25,43 +25,55 @@
     color: $base;
 }
 
-.Navbar-nav.home:hover, .Navbar-nav.home:active, .Navbar-nav.home:focus, .Navbar-nav.home:visited {
+.Navbar-nav.home:hover,
+.Navbar-nav.home:active,
+.Navbar-nav.home:focus,
+.Navbar-nav.home:visited {
     color: $green;
 
 }
 
-.Navbar-nav.about-us:hover, .Navbar-nav.about-us:active, .Navbar-nav.about-us:focus, .Navbar-nav.about-us:visited {
+.Navbar-nav.about-us:hover,
+.Navbar-nav.about-us:active,
+.Navbar-nav.about-us:focus,
+.Navbar-nav.about-us:visited {
     color: $green-light;
 
 }
 
-.Navbar-nav.our-work:hover, .Navbar-nav.our-work:active, .Navbar-nav.our-work:focus, .Navbar-nav.our-work:visited {
+.Navbar-nav.our-work:hover,
+.Navbar-nav.our-work:active,
+.Navbar-nav.our-work:focus,
+.Navbar-nav.our-work:visited {
     color: $blue-light;
 
 }
 
-.Navbar-nav.contact:hover, .Navbar-nav.contact:active, .Navbar-nav.contact:focus, .Navbar-nav.contact:visited {
+.Navbar-nav.contact:hover,
+.Navbar-nav.contact:active,
+.Navbar-nav.contact:focus,
+.Navbar-nav.contact:visited {
     color: $blue;
 
 }
 
-.Navbar-search{
+.Navbar-search {
     padding: 10px;
 }
 
 .Navbar-search input {
-   border: 1px solid $base;
-   padding: 5px 10px;
-   outline: none;
-   border-radius: 2px;
-   display: block;
-   width: 100%;
+    border: 1px solid $base;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 2px;
+    display: block;
+    width: 100%;
 }
 
 .Navbar-dropdown a {
     display: block;
     padding: 5px;
-    color:white;
+    color: white;
 
 }
 
@@ -80,7 +92,3 @@
 .Navbar-dropdown a.contact {
     background-color: $blue;
 }
-
-
-
-
