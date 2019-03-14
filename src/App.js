@@ -24,6 +24,7 @@ class App extends Component {
                 
                         <Navbar />
                         <Carousel />
+                        <Footer />
                         {/*<div className="MainText">
                             <p>WHO WE ARE</p>
                         </div>
@@ -36,12 +37,9 @@ class App extends Component {
                             <Tile icon={clockIcon} />
                             <Tile icon={cloudIcon} />
                             <Tile icon={heartIcon} />
-                        <Footer> 
-                        <FooterIcon icon={facebookIcon} />
-                        <FooterIcon icon={twitterIcon} />
-                        <FooterIcon icon={messageIcon} />
-                        <FooterIcon icon={lineUpIcon} />
-                        </Footer>*/}
+        
+                        
+                        */}
                         
                         
                         

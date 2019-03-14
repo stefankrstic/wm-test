@@ -1,6 +1,5 @@
 import './Carousel.scss';
 import React, { Component } from 'react';
-import carouselCover from './images/carousel-cover.png';
 import carouselImage from './images/carousel-image.png';
 import carouselLeft from './images/carousel-left.png';
 import carouselRight from './images/carousel-right.png';

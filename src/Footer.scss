@@ -1,8 +1,25 @@
+@import './variables.scss';
+
 .Footer {
-    background-color: #dbdbdb;
-    width: 320px;
-    height: 59px;
+    background-color: $base-medium;
     display: flex;
     align-items: center;
     
+}
+
+.Footer a {
+    padding: 10px;
+}
+
+.Footer-icon-right {
+    margin-left: auto;
+}
+
+.Footer-nav {
+    margin: 0 auto;
+}
+
+.Footer-nav a {
+    text-transform: uppercase;
+    color:$base-dark;
 }
