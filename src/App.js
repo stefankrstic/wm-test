@@ -36,7 +36,7 @@ class App extends Component {
                             <Tile icon={clockIcon} />
                             <Tile icon={cloudIcon} />
                             <Tile icon={heartIcon} />
-                        <Footer>
+                        <Footer> 
                         <FooterIcon icon={facebookIcon} />
                         <FooterIcon icon={twitterIcon} />
                         <FooterIcon icon={messageIcon} />
