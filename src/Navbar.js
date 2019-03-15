@@ -35,18 +35,18 @@ class Navbar extends Component {
                         <div className="icon icon-hat" />
                     </a>
                     <a href="#link" className="Navbar-icon tablet-only">
-                        <div className="icon icon-email" />
+                        <div className="icon icon-emails" />
                     </a>
                     <a href="#link" className="Navbar-icon Navbar-nav home desktop-only">
                         Home
                     </a>
                     <span className="desktop-only Navbar-nav"> /</span>
                     <a href="#link" className="Navbar-icon Navbar-nav about-us desktop-only">
-                        About Us{' '}
+                        About Us
                     </a>
                     <span className="desktop-only Navbar-nav"> /</span>
                     <a href="#link" className="Navbar-icon Navbar-nav our-work desktop-only">
-                        Our Work{' '}
+                        Our Work
                     </a>
                     <span className="desktop-only Navbar-nav"> /</span>
                     <a href="#link" className="Navbar-icon Navbar-nav contact desktop-only">
@@ -64,7 +64,7 @@ class Navbar extends Component {
                     <div className="Navbar-dropdown mobile-only">
                         <a href="#link" className="home">
                             Home
-                        </a>{' '}
+                        </a>
                         <a href="#link" className="about-us">
                             About Us
                         </a>
